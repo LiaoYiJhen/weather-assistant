@@ -1,10 +1,8 @@
 # AI Weather Assistant｜AI 氣象助理
 
-AI 氣象助理是一個整合即時氣象資料與生成式 AI 的互動式 Web 應用程式。
-
-系統透過中央氣象署（CWA）Open Data API 取得全台各縣市天氣資料，
-經 Python 進行資料整理後，以 Streamlit 建立互動式查詢介面，
-並串接 Gemini LLM，將結構化的氣象資訊轉換為自然、易讀的天氣摘要。
+- 串接中央氣象署 Open Data API 取得即時氣象結構化資料，運用 Python 進行資料解析與清洗。
+- 整合 Gemini API 與 Prompt 設計，將原始氣象數據自動轉化為自然語言摘要。
+- 使用 Streamlit 建立互動式介面，並完成 Streamlit Cloud 雲端部署。
 
 ## Project Motivation｜專案目的
 
