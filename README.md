@@ -32,17 +32,12 @@ AI 氣象助理是一個整合即時氣象資料與生成式 AI 的互動式 Web
 
 ## System Flow｜系統流程
 
-CWA Weather API
-        ↓
-Python Data Processing
-        ↓
-Weather Information
-        ↓
-Gemini LLM
-        ↓
-Natural Language Summary
-        ↓
-Streamlit Web App
+1. CWA Weather API
+2. Python Data Processing
+3. Weather Information
+4. Gemini LLM
+5. Natural Language Summary
+6. Streamlit Web App
 
 ## Tech Stack｜使用技術
 
